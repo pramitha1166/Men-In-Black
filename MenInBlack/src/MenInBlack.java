@@ -27,7 +27,11 @@ public class MenInBlack {
 
 	public void kill() {
 		
+		Alien[] aliens = pack.getAliens(); 
 		
+		for(int i=0;i<aliens.length;i++) {
+			score += aliens[i].getScore();
+		}
 		
 	}
 	

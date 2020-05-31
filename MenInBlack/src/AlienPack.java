@@ -18,4 +18,12 @@ public class AlienPack {
 		alienArray[index] = alien;
 	}
 
+	public Alien[] getAliens() {
+		return alienArray;
+	}
+
+	
+	
+	
+
 }
