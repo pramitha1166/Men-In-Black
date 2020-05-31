@@ -1,8 +1,6 @@
 
-public class Alien {
+interface Alien {
 
-	public Alien() {
-		// TODO Auto-generated constructor stub
-	}
-
+	public int getScore();
+	
 }
